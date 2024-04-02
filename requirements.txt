@@ -1,7 +1,6 @@
 torch
 transformers
 google.generativeai
-fastapi
+fastapi[all]
 pydantic
-"uvicorn[standard]"
 

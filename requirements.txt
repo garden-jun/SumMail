@@ -1,0 +1,7 @@
+torch
+transformers
+google.generativeai
+fastapi
+pydantic
+"uvicorn[standard]"
+

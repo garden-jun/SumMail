@@ -14,5 +14,10 @@ def summary():
 
     summary_ids = model.generate(torch.tensor([input_ids]))
     result = tokenizer.decode(summary_ids.squeeze().tolist(), skip_special_tokens=True)
+    print(result)
 
     return result
+
+
+
+# print(summary())
